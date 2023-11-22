@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./index.css"rel="stylesheet"/>
+</head>
+<body>
+    <div class="topBar">
+        <div class="header">
+        <div class="logo">e!</div>
+        <button class="loginButton">Login</button>
+        <button class="createButton">Create an  Account</button>
+        </div>        
+    </div>
+
+
+    <div class="container">
+        <div class="row heading">Breakfast places in mumbai</div>
+        <div class="row">
+            <div class="sideBar">
+                <div class="filterpanel">
+                    <div class="filterpanel-heading">
+                        Filters
+                    </div>
+                    <div class="filterpanel-subheading">
+                        select location
+                    </div>
+                    <select class="locationselection">
+                    <option  disabled selected>select location</option>
+                    <option>delhi</option>
+                    <option>mumbai</option>
+                    <option>calicut</option>
+                    <option>banglore</option>
+                    </select>
+                    <div class="filterpanel-subheading">
+                        cuisine
+                    </div>
+                    <input type="checkbox" class="cuisineOption">
+                    <label>NorthIndian</label>
+                    </input>
+                    <br>
+                    <input type="checkbox" class="cuisineOption">
+                    <label>sothIndian</label>
+                    </input>
+                    <br>
+                    <input type="checkbox" class="cuisineOption">
+                    <label>chinese</label>
+                    </input>
+                    <br>
+                    <input type="checkbox" class="cuisineOption">
+                    <label>streetfood</label>
+                    </input>
+                    <br>
+
+                    <div class="filterpanel-subheading">
+                        cost for two
+                    </div>                    
+                    <input type="radio" class="cuisineOption" name="cost">
+                    <label>less than ₹500 </label>
+                    </input>
+                    <br>
+                    <input type="radio" class="cuisineOption" name="cost">
+                    <label>₹500 to ₹1000 </label>
+                    </input>
+                    <br>
+                    <input type="radio" class="cuisineOption" name="cost">
+                    <label>₹1000 to ₹1500 </label>
+                    </input>
+                    <br>
+                    <input type="radio" class="cuisineOption" name="cost">
+                    <label>₹1500 to ₹2000 </label>
+                    </input>
+                    <br>
+                    <input type="radio" class="cuisineOption" name="cost">
+                    <label>₹2000+ </label>
+                    </input>
+                    <br>
+                    <div class="filterpanel-subheading">
+                        sort
+                        </div>
+                        <input type="radio" class="cuisineOption" name="price">
+                            <lable> price low to high</lable>
+                    </input>
+                            <br>
+                        <input type="radio" class="cuisineOption" name="price"> 
+                        <lable> price high to low</lable>
+                    </input>
+                </div>
+            </div>
+
+            <div class="mainBar">
+                <div class="resultPanel">
+                    <div class="row upperSection">
+                        <div  class="imageBox">
+                            <img src="./image/images/img1.jpeg"alt="image not found" class="img"/>
+                        </div>
+                        <div class="col2">
+                            <div class="resultsHeading">The big chill cake</div>
+                            <div class="resultsSubheading">Fort</div>
+                            <div class="resultsaddress">shop1, plotD,Coolcafe</div>
+                        </div>
+                    </div>
+
+                    <div class="row lowerSection">
+                        <div class="col2">
+                            <div class="resultsAddress">cuisines</div>
+                            <div class="resultsaddress">cost for two</div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="resultPanel">
+                    <div class="row upperSection">
+                        <div  class="imageBox">
+                            <img src="./image/images/img1.jpeg"alt="image not found" class="img"/>
+                        </div>
+                        <div class="col2">
+                            <div class="resultsHeading">The big chill cake</div>
+                            <div class="resultsSubheading">Fort</div>
+                            <div class="resultsaddress">shop1, plotD,Coolcafe</div>
+                        </div>
+                    </div>
+
+                    <div class="row lowerSection">
+                        <div class="col2">
+                            <div class="resultsAddress">cuisines</div>
+                            <div class="resultsaddress">cost for two</div>
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="pagination">
+                    <button class="paginationButton"><</button>
+                    <button class="paginationButton">1</button>
+                    <button class="paginationButton">2</button>
+                    <button class="paginationButton">3</button>
+                    <button class="paginationButton">4</button>
+                    <button class="paginationButton">5</button>
+                    <button class="paginationButton">></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
